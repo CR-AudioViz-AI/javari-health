@@ -42,7 +42,7 @@ export default function HealthHome() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#040912", color: "#e2e8f0", fontFamily: "system-ui" }}>
-      <nav style={{ background: "#1E3A5F", padding: "0 20px", height: 52, display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
+      <nav data-app-chrome style={{ background: "#1E3A5F", padding: "0 20px", height: 52, display: "flex", alignItems: "center", justifyContent: "space-between", position: "sticky", top: 0, zIndex: 100 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <span style={{ fontSize: 20 }}>💚</span>
           <span style={{ fontWeight: 800, color: "#00B4D8", fontSize: 15 }}>Javari Health</span>
@@ -105,7 +105,7 @@ export default function HealthHome() {
         </div>
       </section>
 
-      <footer style={{ borderTop: "1px solid rgba(0,180,216,0.08)", padding: "14px 24px", textAlign: "center" }}>
+      <footer data-app-chrome style={{ borderTop: "1px solid rgba(0,180,216,0.08)", padding: "14px 24px", textAlign: "center" }}>
         <p style={{ color: "#374151", fontSize: 11, margin: "0 0 4px" }}>
           This platform provides general wellness information only. It is not a substitute for professional medical advice, diagnosis, or treatment.
         </p>
